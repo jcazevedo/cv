@@ -1,0 +1,123 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[grey]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Jo\~{a}o}
+\familyname{Azevedo}
+\title{Software Engineer}               % optional, remove the line if not wanted
+\address{Vila Nova de Gaia}{Porto, Portugal}    % optional, remove the line if not wanted
+\mobile{(+351) 91 084 25 79}                    % optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{joao.c.azevedo@gmail.com}                      % optional, remove the line if not wanted
+\homepage{http://jcazevedo.net/}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2005--2010}{Integrated Masters in Informatics and Computing Engineering}{Faculdade de Engenharia da Universidade do Porto}{Porto, Portugal}{}{Grade average of 18 out of 20\newline{}}
+\cventry{2002--2005}{Secondary Education -- Natural--Scientific Option}{Escola Secund\'{a}ria de Carvalhos}{Vila Nova de Gaia, Portugal}{}{Grade average of 18 out of 20.\newline{}}
+
+\section{Experience}
+\cventry{2011--}{Researcher}{Fraunhofer AICOS}{Porto, Portugal}{}{Research and Development in the field of ambient assisted living.\newline{}}%
+
+\cventry{2010--2011}{Software Engineer}{SISCOG}{Lisbon, Portugal}{}{Corrective maintenance of a crew-scheduling application for VR, a Finnish railway company.\newline{}}
+
+\cventry{2009--2010}{Student Researcher}{Faculdade de Engenharia da Universidade do Porto}{Porto, Portugal}{}{Design and development of a module based architecture for a configurable Inductive Logic Programming system development environment.\newline{}}
+
+\cventry{2007--2010}{Software Developer}{IMAGE}{Porto, Portugal}{}{Development of the browser-based game IMAGE - Industrial Management Game, started on the PESC (Projectar, Empreender e Saber Concretizar) projects initiative at Faculdade de Engenharia da Universidade do Porto.\newline{}}
+
+\cventry{2010}{Undergraduate Teaching Assistant}{Faculdade de Engenharia da Universidade do Porto}{Porto, Portugal}{}{Support of first-year students in a Programming course, with a focus on object-oriented programming with C++.\newline{}}
+
+\cventry{2009}{Junior Engineer}{Critical Software, S.A.}{Coimbra, Portugal}{}{Development of a solution to support software reuse in the company's projects.\newline{}}
+
+\cventry{2009}{Undergraduate Teaching Assistant}{Faculdade de Engenharia da Universidade do Porto}{Porto, Portugal}{}{Support of first-year students in a Programming course, with a focus on object-oriented programming with C++.\newline{}}
+
+\cventry{2008}{Undergraduate Teaching Assistant}{Faculdade de Engenharia da Universidade do Porto}{Porto, Portugal}{}{Support of second-year students in a Computer Graphics course, with a focus on OpenGL with C++ and Java Swing.\newline{}}
+
+\section{Languages}
+\cvlanguage{Portuguese}{Fluent}{}
+\cvlanguage{English}{Professionally fluent}{}
+
+\section{Computer skills}
+\cvline{Programming Languages}{C, C++, Java, Common Lisp, Prolog, Scheme, PHP, Ruby, JavaScript}
+\cvline{Markup Languages}{XML, XHTML, LaTeX, CSS}
+\cvline{Database Management Systems}{MySQL, PostgreSQL, Microsoft SQL Server}
+\cvline{Revision Control Systems}{CVS, Subversion, Git}
+\cvline{Frameworks and Technologies}{Android, OpenGL, Hibernate, Java Swing, Stripes, Ruby on Rails, Common Lisp Object System}
+
+\section{Publications}
+\cvitem{}{2009}
+\cvitem{Robotics}{\textit{A Cooperative CiberMouse@RTSS08 Team}, Azevedo, Jo\~{a}o, Oliveira, Miguel, Pacheco, Pedro and Reis, Lu\'{\i}s Paulo, Proceedings of the 14th Portuguese Conference on Artificial Intelligence: Progress in Artificial Intelligence (EPIA), Aveiro, Portugal, 2009.}
+
+\section{Academic Honors}
+\cvlistitem{``Pr\'{e}mio Incentivo'' in 2005/2006, awarded by University of Porto to the best students finishing the first year of its courses.}
+\cvlistitem{Merit scholarships in 2006/2007, 2007/2008 and 2008/2009, awarded by ``Faculdade de Engenharia da Universidade do Porto'' to the top students of all courses.}
+\cvlistitem{``Pr\'{e}mio Companhia Portuguesa de Computadores, Inform\'{a}tica e Sistemas'' in 2009/2010, awarded by ``CPCIS - SGPS - Companhia Portuguesa de Computadores, Inform\'{a}tica e Sistemas'' to the student with the best grade average of the Integrated Masters in Informatics and Computing Engineering at Faculdade de Engenharia da Universidade do Porto.}
+\cvlistitem{4th, 3rd and 2nd places, in 2007, 2008 and 2009, at TIUP (``Torneio Inter-Universit\'{a}rio de Programac\~{a}o''), as a member of the Divide\_N\_Conquer (2007 and 2008) and Theorem (2009) teams.}
+\cvlistitem{3rd, 4th and 2nd places, in 2007, 2008 and 2009, at MIUP (``Maratona Inter-Universit\'{a}ria de Programac\~{a}o''), as a member of the Divide\_N\_Conquer (2007 and 2008) and Theorem (2009) teams.}
+\cvlistitem{Two 2nd places, in 2007 and 2008, at CPUP (``Concurso de Programac~{a}o da Universidade do Porto''), as a member of the Divide\_N\_Conquer team.}
+\cvlistitem{11th, 24th and 19th places, in 2007, 2008 and 2009, at SWERC (South Western Regional ACM Programming Contest), as a member of the Divide\_N\_Conquer (2007 and 2008) and Theorem (2009) teams.}
+\cvlistitem{4th place, in 2008, at the CiberRato contest.}
+\cvlistitem{5th place in Portuguese's Microsoft Imagine Cup 2010 Software Design Contest.}
+
+\section{Interests}
+\cvline{Photography}{\small Amateur photographer}
+\cvline{Science-Fiction}{\small Reader of science-fiction novels.}
+\cvline{Music}{\small Fond of alternative and indie music.}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{Azevedo2009}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
